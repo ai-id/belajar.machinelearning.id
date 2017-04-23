@@ -25,26 +25,26 @@ Langkah-langkah untuk menulis tutorial baru:
 
 1. Fork project ini, lalu clone di localmu (jika belum)
     
-    # contoh
-    git clone https://github.com/pyk/belajar.machinelearning.id.git
-    cd belajar.machinelearning.id
+        # contoh
+        git clone https://github.com/pyk/belajar.machinelearning.id.git
+        cd belajar.machinelearning.id
 
 2. Install [jekyll](https://jekyllrb.com) (jika belum)
 
-    gem install jekyll bundler
+        gem install jekyll bundler
 
 3. Buat file baru di `src/_post/` dengan format `TAHUN-BULAN-TANGGAL-JUDUL`.
 4. Pada awal file tambahkan format ini, diikuti materi tutorialnya:
 
-    ---
-    layout: post
-    title:  "Judul Tutorial"
-    date:   2017-04-23 01:58:50 +0700
-    categories: tutorial
-    ---
+        ---
+        layout: post
+        title:  "Judul Tutorial"
+        date:   2017-04-23 01:58:50 +0700
+        categories: tutorial
+        ---
 
-5. Jalanin `bundle exec jekyll serve` untuk melihat hasil tulisannya, dan
-`bundle exec jekyll build` untuk menggenerate HTML nya. 
+5. Jalanin `bundle exec jekyll serve` untuk melihat hasil tulisannya, 
+    dan `bundle exec jekyll build` untuk menggenerate HTML nya. 
 6. Commmit perubahan di git, lalu kirim pull request.
 
 ## Diskusi
