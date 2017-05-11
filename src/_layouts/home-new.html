@@ -159,54 +159,6 @@
     <div class="Background-right">
     </div>
   </div>
-  <!-- Docs search -->
-  <script src="./Bugsnag%20docs_files/docsearch.min.js">
-  </script>
-  <script src="./Bugsnag%20docs_files/jquery.min.js">
-  </script>
-  <script src="./Bugsnag%20docs_files/all.js">
-  </script> 
-  <script type="text/javascript">
-         docsearch({
-             apiKey: '3cda203922550a73af0d5906ca56c6cf',
-             indexName: 'bugsnag',
-             inputSelector: '.js-searchInput',
-             debug: true
-         });
-  </script> <!-- Zendesk Widget -->
-   <iframe src="./Bugsnag%20docs_files/saved_resource.html" style="display: none;" title=""></iframe>
-  <script>
-       // Standard Zendesk snippet
-       window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(e){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var o=this.createElement("script");n&&(this.domain=n),o.id="js-iframe-async",o.src=e,this.t=+new Date,this.zendeskHost=t,this.zEQueue=a,this.body.appendChild(o)},o.write('<body onload="document._l();">'),o.close()}("https://assets.zendesk.com/embeddable_framework/main.js","bugsnag.zendesk.com");
-
-       // Some custom code to turn support@bugsnag.com links into Zendesk triggers
-       $('[href="mailto:support@bugsnag.com"]').on('click', function(e) {
-
-         // Only do this if Zendesk has loaded. Otherwise, fall back to mailto behavior
-         if (window.zEmbed.activate) {
-           window.zEmbed.activate();
-           e.preventDefault();
-         }
-       });
-  </script>
-
-  <div>
-    <iframe class="zEWidget-ticketSubmissionForm" data-reactroot="" id="ticketSubmissionForm" name="ticketSubmissionForm" src="./Bugsnag%20docs_files/saved_resource(1).html" style="border: none; background: transparent; z-index: 999999; transform: translateZ(0px); position: fixed; opacity: 0; right: 0px; bottom: 0px; width: 357px; margin-left: 15px; margin-right: 15px; margin-top: 0px; height: 476px; transition-property: none; transition-timing-function: unset; top: -9999px;"></iframe>
-  </div>
-
-
-  <div>
-    <iframe class="zEWidget-launcher zEWidget-launcher--active" data-reactroot="" id="launcher" name="launcher" src="./Bugsnag%20docs_files/saved_resource(2).html" style="border: none; background: transparent; z-index: 999998; transform: translateZ(0px); position: fixed; opacity: 1; right: 0px; bottom: 0px; width: 139px; height: 47px; margin: 10px 20px;"></iframe>
-  </div>
-
-
-  <div>
-    <iframe class="zEWidget-nps" data-reactroot="" id="nps" name="nps" src="./Bugsnag%20docs_files/saved_resource(3).html" style="border: none; background: transparent; z-index: 2147483647; transform: translateZ(0px); position: fixed; opacity: 0; right: 0px; bottom: 0px; left: 50%; margin-left: -310px; margin-bottom: 15px; width: 640px; margin-top: 0px; height: 177px; transition-property: none; transition-timing-function: unset; top: -9999px;"></iframe>
-  </div>
-
-
-  <div>
-    <iframe class="zEWidget-ipm" data-reactroot="" id="ipm" name="ipm" src="./Bugsnag%20docs_files/saved_resource(4).html" style="border: none; background: transparent; z-index: 2147483647; transform: translateZ(0px); position: fixed; opacity: 0; right: 0px; top: -230px; margin-right: 15px; margin-top: 0px; height: 180px; width: 395px; transition-property: none; transition-timing-function: unset;"></iframe>
-  </div>
+ 
 </body>
 </html>
