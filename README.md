@@ -1,6 +1,6 @@
 # Belajar Machine Learning
 
-_Belajar Machine Learning_ adalah salah satu project komunitas _Artificial Intelligence ID_ yang berfokus pada penyediaan sumber belajar pembelajaran Machine Learning.
+_Belajar Machine Learning_ adalah salah satu project komunitas _Artificial Intelligence ID_ yang berfokus pada penyediaan sumber belajar Machine Learning.
 
 Tujuan utama _Belajar Machine Learning_ adalah memperbanyak sumber belajar Machine Learning berbahasa Indonesia dan membuat sebuah [Karya Referensi](https://id.wikipedia.org/wiki/Karya_referensi) Machine Learning yang nantinya akan menjadi sumber referensi bagi para pembelajar Machine Learning di Indonesia. Harapan _Belajar Machine Learning_ adalah semakin banyak teman-teman di Indonesia yang berkecimpung dibidang Machine Learning atau mengaplikasikan Machine Learning ke bidang lain. 
 
