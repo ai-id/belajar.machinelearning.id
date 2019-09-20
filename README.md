@@ -50,3 +50,5 @@ Langkah-langkah untuk menulis tutorial baru:
 
 Gabung di grub [Artificial Intelligence Indonesia](https://www.facebook.com/groups/381957058844611/) untuk mendiskusikan
 project ini.
+
+themes jekyll oleh [artemsheludko]( https://github.com/artemsheludko )
