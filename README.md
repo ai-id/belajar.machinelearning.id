@@ -6,10 +6,10 @@ Menulis di markdown cukup rumit bagi yang baru kenal, namun sebenarnya secara te
 
 Langkah-langkah untuk menulis tutorial baru:
 
-1. Fork project ini, lalu clone di local repo (jika belum).
+1. Clone project ini di local repo.
     
         # contoh
-        git clone https://github.com/pyk/belajar.machinelearning.id.git
+        git clone https://github.com/ai-id/belajar.machinelearning.id.git
         cd belajar.machinelearning.id
 
 2. Untuk mendaftar sebagai penulis edit file `/_data/authors.yml` dan masukkan data diri mengikuti format berikut, pastikan nama pengguna anda tidak duplikat dengan nama pengguna penulis lain agar nama anda muncul.
@@ -51,4 +51,5 @@ Langkah-langkah untuk menulis tutorial baru:
 Gabung di grub [Artificial Intelligence Indonesia](https://www.facebook.com/groups/381957058844611/) untuk mendiskusikan
 project ini.
 
-themes jekyll oleh [artemsheludko]( https://github.com/artemsheludko )
+
+__themes jekyll oleh [artemsheludko]( https://github.com/artemsheludko )__
