@@ -1,34 +1,64 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: Belajar Machine Learning
-email: belajar@machinelearning.id
+logo: logo.png # You can add own logo image.
 description: > # this means to ignore newlines until "baseurl:"
-  Tempat belajar Machine Learning dari Nol.
-baseurl: "" # the subpath of your site, e.g. /blog
+  Understanding machine learning method more deeper.
+baseurl: "" # The subpath of your site, e.g. /blog
 url: "https://belajar.machinelearning.id" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  ai-id
-version: v0.1.0
+github: ai-id
+ 
+# Contact links
+twitter: https://twitter.com/ # Add your Twitter handle
+facebook: https://facebook.com/ # Add your Facebook handle
+dribbble: https://dribbble.com/ # Add your Dribbble handle
+instagram: https://instagram.com/ # Add your Instagram handle
+pinterest: https://pinterest.com/ # Add your Pinterest handle
+email: belajar@machinelearning.id
+
+# Hero Section
+hero: false # To enable the section hero, use the value true. To turn off use the value false.
+hero-title: Raked Minimalistic Theme # Add your hero title
+hero-subtitle: For those who love simplicity # Add your hero subtitle
+hero-image: 14.jpg # Add background image in section hero
+
+# Footer
+footer-image: ai-id.png # Add background image in footer
+
+# Comment Section (Disqus)
+disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
+
+# Google Analytics
+google-analytics: # Add your identifier. For example UA-99631805-1.
+
+# Newsletter
+mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
 
 # Build settings
 markdown: kramdown
-gems:
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - vendor
-source:      src
-destination: docs
+permalink: pretty
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll/tagging
+
+paginate: 4
+paginate_path: "/page/:num"
+
+# Pages Path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+
+include:
+  - _pages
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag_page
+tag_permalink_style:  pretty
+
+sass:
+  sass_dir: _sass
+  style: compressed
